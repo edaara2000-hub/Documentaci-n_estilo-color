@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estilo & Color | Peluquería de Autor & Alta Coloración</title>
+  <meta name="description" content="Salón de belleza y peluquería Estilo & Color. Especialistas en tinturas de alta gama, balayage, tratamientos de keratina y peinados exclusivos para fiestas y novias.">
+  
+  <!-- Fuentes Google: Playfair Display, Cinzel & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+  
+  <!-- Estilos principales -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg">
+</head>
+<body>
+
+  <!-- Barra de Notificación Superior -->
+  <div class="top-announcement">
+    <div class="container top-announcement-content">
+      <span>✨ Agenda tu cita hoy y recibe asesoría de coloración personalizada de cortesía</span>
+      <a href="#contacto" class="announcement-link">Reservar Ahora &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Header & Navegación -->
+  <header class="main-header" id="header">
+    <div class="container header-container">
+      <a href="#inicio" class="brand-identity">
+        <img src="assets/logo.jpg" alt="Logo Estilo & Color Peluquería" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-name">ESTILO & COLOR</span>
+          <span class="brand-tagline">PELUQUERÍA ULTRA HD</span>
+        </div>
+      </a>
+
+      <!-- Menú de navegación desktop -->
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#antes-despues" class="nav-link">Antes & Después</a></li>
+          <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón CTA Header & Redes -->
+      <div class="header-actions">
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-badge-nav" title="Síguenos en Instagram">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          <span>Instagram</span>
+        </a>
+        <a href="#contacto" class="btn btn-gold btn-header">Agendar Cita</a>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Abrir menú" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú móvil desplegable -->
+    <div class="mobile-nav" id="mobileNav">
+      <ul class="mobile-nav-list">
+        <li><a href="#inicio" class="mobile-link">Inicio</a></li>
+        <li><a href="#nosotros" class="mobile-link">Sobre Nosotros</a></li>
+        <li><a href="#antes-despues" class="mobile-link">Antes y Después</a></li>
+        <li><a href="#catalogo" class="mobile-link">Catálogo de Trabajos</a></li>
+        <li><a href="#servicios" class="mobile-link">Servicios & Tinturas</a></li>
+        <li><a href="#contacto" class="mobile-link">Formulario & Contacto</a></li>
+      </ul>
+      <div class="mobile-cta-wrapper">
+        <a href="#contacto" class="btn btn-gold w-100 mobile-cta-btn">Agendar Cita</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================== -->
+    <!-- 1. SECCIÓN INICIO / HERO (Wireframe 1)        -->
+    <!-- ============================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-decor-orb orb-1"></div>
+      <div class="hero-decor-orb orb-2"></div>
+      <div class="container hero-content">
+        <div class="hero-tag-badge">
+          <span class="badge-sparkle">✦</span>
+          <span>ESTÉTICA MODERNA & ALTA COLORACIÓN</span>
+          <span class="badge-sparkle">✦</span>
+        </div>
+
+        <h1 class="hero-title">
+          Belleza que refleja <span class="gold-gradient-text">tu esencia</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          En <strong>Estilo & Color</strong> realzamos tu belleza natural entrelazando pasión, técnica de vanguardia y los mejores productos de categoría mundial. Especialistas en <em>Balayage</em>, tinturas libres de amoníaco, recuperación capilar y peinados inolvidables para eventos y novias.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#catalogo" class="btn btn-gold btn-lg shadow-gold">
+            <span>DESCUBRE TU ESTILO</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contacto" class="btn btn-outline-gold btn-lg">
+            <span>CONSULTAR POR WHATSAPP</span>
+          </a>
+        </div>
+
+        <!-- Badges de Confianza del Kit de Marca -->
+        <div class="hero-trust-grid">
+          <div class="trust-item">
+            <span class="trust-number">100%</span>
+            <span class="trust-label">Tinturas de Alta Gama</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">500+</span>
+            <span class="trust-label">Peinados para Novias & Fiestas</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <span class="trust-number">5★</span>
+            <span class="trust-label">Calificación de Nuestras Clientas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- 2. SECCIÓN SOBRE NOSOTROS & EQUIPO (Wireframe 1)-->
+    <!-- ============================================== -->
+    <section class="section about-section" id="nosotros">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">NUESTRA IDENTIDAD</span>
+          <h2 class="section-title">Sobre Nosotros</h2>
+          <div class="gold-divider"></div>
+        </div>
+
+        <!-- Bloque Información Empresa + Imagen (Wireframe 1) -->
+        <div class="about-grid">
+          <div class="about-card info-card">
+            <h3 class="about-highlight-title">Calidad, Pasión y Cuidado Experto</h3>
+            <p class="about-text">
+              En <strong>Estilo & Color</strong> sabemos que tu cabello es tu firma personal. Muchas clientas llegan a nuestro salón con dudas sobre qué tipo de tintura o tratamiento es el adecuado para su tipo de fibra capilar, o si realizamos peinados para galas, graduaciones y matrimonios.
+            </p>
+            <p class="about-text">
+              Nuestra misión es brindarte transparencia absoluta: trabajamos únicamente con <strong>coloraciones profesionales de marcas líderes a nivel internacional (Wella Professionals, L'Oréal Professionnel y Olaplex)</strong>, libres de amoníaco agresivo y con tecnología protectora de enlaces capilares para un brillo extremo y máxima duración.
+            </p>
+            <div class="about-features">
+              <div class="feature-badge">
+                <span class="feature-icon">💎</span>
+                <div>
+                  <strong>Diagnóstico Capilar Previo</strong>
+                  <p>Evaluamos la salud de tu fibra capilar antes de cualquier procedimiento químico.</p>
+                </div>
+              </div>
+              <div class="feature-badge">
+                <span class="feature-icon">🌿</span>
+                <div>
+                  <strong>Fórmulas Nutritivas & Veganas</strong>
+                  <p>Tinturas sin sulfatos ni agentes abrasivos que sellan la cutícula capilar.</p>
+                </div>
+              </div>
+              <div class="feature-badge">
+                <span class="feature-icon">👑</span>
+                <div>
+                  <strong>Especialistas en Eventos & Novias</strong>
+                  <p>Pruebas de peinado, fijación de larga duración y estilos a medida para tu gran día.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="visual-frame">
+              <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80" alt="Instalaciones del salón Estilo y Color" class="about-image" loading="lazy">
+              <div class="visual-badge-overlay">
+                <span class="badge-icon">✨</span>
+                <div>
+                  <strong>Peluquería Ultra HD</strong>
+                  <span>Técnica & Excelencia Garantizada</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Subsección El Equipo (Wireframe 1) -->
+        <div class="team-block">
+          <div class="text-center team-header">
+            <h3 class="team-title">El Equipo Profesional</h3>
+            <p class="team-subtitle">Manos expertas dedicadas a transformar tu look con delicadeza y maestría</p>
+          </div>
+
+          <div class="team-grid">
+            <!-- Empleado #1 -->
+            <div class="team-card">
+              <div class="team-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1595956553066-fe24a8c33395?auto=format&fit=crop&w=600&q=80" alt="Camila Valenzuela - Máster Colorista" class="team-avatar" loading="lazy">
+                <span class="team-badge">Colorista</span>
+              </div>
+              <h4 class="team-name">Camila Valenzuela</h4>
+              <p class="team-role">Máster en Balayage & Tinturas</p>
+              <p class="team-bio">Especialista en decoloraciones saludables, técnicas francesas de iluminación y neutralización de tonos indeseados.</p>
+            </div>
+
+            <!-- Empleado #2 -->
+            <div class="team-card featured-staff">
+              <div class="team-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Sofía Morales - Diseñadora de Peinados" class="team-avatar" loading="lazy">
+                <span class="team-badge gold">Directora Creativa</span>
+              </div>
+              <h4 class="team-name">Sofía Morales</h4>
+              <p class="team-role">Especialista en Novias & Peinados de Fiesta</p>
+              <p class="team-bio">Diseñadora de recogidos, ondas al agua de alfombra roja y tocados personalizados para novias, madrinas y graduaciones.</p>
+            </div>
+
+            <!-- Empleado #3 -->
+            <div class="team-card">
+              <div class="team-avatar-wrapper">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80" alt="Matías Riquelme - Máster Estilista" class="team-avatar" loading="lazy">
+                <span class="team-badge">Cortes & Salud</span>
+              </div>
+              <h4 class="team-name">Matías Riquelme</h4>
+              <p class="team-role">Máster Estilista & Tratamientos Keratina</p>
+              <p class="team-bio">Experto en visagismo facial, cortes de precisión en seco y húmedo, y sellado de keratina orgánica con brillo espejo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- 3. SECCIÓN GALERÍA ANTES Y DESPUÉS             -->
+    <!-- Requerimiento explícito: "¿Qué tintura ocupo?" -->
+    <!-- ============================================== -->
+    <section class="section before-after-section" id="antes-despues">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">RESULTADOS REALES COMPROBADOS</span>
+          <h2 class="section-title">Galería de Trabajos: Antes & Después</h2>
+          <div class="gold-divider"></div>
+          <p class="section-lead">Desliza la barra central para comparar la transformación de nuestras clientas y comprobar la calidad del color y acabado.</p>
+        </div>
+
+        <!-- Selector de casos de antes y después -->
+        <div class="ba-tabs">
+          <button class="ba-tab-btn active" data-case="balayage">Balayage Soleil & Coloración</button>
+          <button class="ba-tab-btn" data-case="keratina">Tratamiento Keratina Antifrizz</button>
+          <button class="ba-tab-btn" data-case="novia">Peinado y Styling de Fiesta</button>
+        </div>
+
+        <!-- Comparador interactivo -->
+        <div class="ba-comparison-wrapper">
+          <div class="ba-comparison-box" id="baComparisonBox">
+            <!-- Imagen Antes -->
+            <div class="ba-image-container ba-before">
+              <img id="baImageBefore" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1200&q=80" alt="Cabello antes del procedimiento" loading="lazy">
+              <span class="ba-tag tag-before">ANTES</span>
+            </div>
+            <!-- Imagen Después -->
+            <div class="ba-image-container ba-after" id="baAfterContainer">
+              <img id="baImageAfter" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80" alt="Cabello después del procedimiento en Estilo y Color" loading="lazy">
+              <span class="ba-tag tag-after">DESPUÉS</span>
+            </div>
+            <!-- Control deslizante (Slider handle) -->
+            <div class="ba-slider-handle" id="baHandle">
+              <div class="handle-line"></div>
+              <div class="handle-button">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8.5 7l-5 5 5 5V7zm7 10l5-5-5-5v10z"/>
+                </svg>
+              </div>
+              <div class="handle-line"></div>
+            </div>
+          </div>
+
+          <!-- Ficha informativa del caso mostrado -->
+          <div class="ba-info-card" id="baInfoCard">
+            <h4 class="ba-case-title" id="baCaseTitle">Balayage Rubio Miel & Tonalización Fría</h4>
+            <p class="ba-case-desc" id="baCaseDesc">
+              <strong>Procedimiento realizado:</strong> Decoloración controlada con plex protector Wella Blondor + Tonalización sin amoníaco Color Touch + Hidratación intensiva con keratina líquida. Cero quiebre y máxima suavidad al tacto.
+            </p>
+            <div class="ba-specs">
+              <span class="spec-pill">🌾 Tintura: Wella Blondor Plex</span>
+              <span class="spec-pill">⏱ Duración: 3.5 hrs</span>
+              <span class="spec-pill">✨ Acabado: Seda & Brillo HD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- 4. SECCIÓN CATÁLOGO DE CORTES (Wireframe 2)   -->
+    <!-- 9 Cortes en Grilla 3x3 con Filtros y Modales   -->
+    <!-- ============================================== -->
+    <section class="section catalog-section" id="catalogo">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">MUESTRARIO EXCLUSIVO</span>
+          <h2 class="section-title">Catálogo de Trabajos Anteriores</h2>
+          <div class="gold-divider"></div>
+          <p class="section-lead">Explora nuestra selección de cortes, coloraciones y peinados realizados en nuestro salón.</p>
+        </div>
+
+        <!-- Filtros del catálogo -->
+        <div class="catalog-filters">
+          <button class="filter-btn active" data-filter="all">Todos los Trabajos (9)</button>
+          <button class="filter-btn" data-filter="color">Tinturas & Balayage</button>
+          <button class="filter-btn" data-filter="corte">Cortes de Tendencia</button>
+          <button class="filter-btn" data-filter="fiesta">Peinados de Novias & Fiestas</button>
+        </div>
+
+        <!-- Grilla de 9 Trabajos (Corte #1 al #9 según Wireframe) -->
+        <div class="catalog-grid" id="catalogGrid">
+          
+          <!-- CORTE #1 -->
+          <div class="catalog-card" data-category="color" data-index="1">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80" alt="Corte #1 - Balayage Vainilla Doré" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #1</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(1)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Tinturas & Balayage</span>
+              <h3 class="card-title">Balayage Vainilla Doré</h3>
+              <p class="card-summary">Técnica a mano alzada con tonalización cálida y degradado imperceptible desde la raíz natural.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Wella Koleston Perfect</span>
+                <span class="card-link" onclick="openModal(1)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #2 -->
+          <div class="catalog-card" data-category="corte" data-index="2">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=700&q=80" alt="Corte #2 - Bob Francés Texturizado" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #2</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(2)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Cortes de Tendencia</span>
+              <h3 class="card-title">Bob Francés Texturizado</h3>
+              <p class="card-summary">Corte estructurado a la altura de la mandíbula que aporta volumen, movimiento y frescura juvenil.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Acabado con Serum Brillo</span>
+                <span class="card-link" onclick="openModal(2)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #3 -->
+          <div class="catalog-card" data-category="fiesta" data-index="3">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=80" alt="Corte #3 - Peinado Novia Romántica" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #3</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(3)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Peinados de Fiesta & Novias</span>
+              <h3 class="card-title">Recogido Romántico de Novia</h3>
+              <p class="card-summary">Peinado elaborado con trenzas etéreas, ondas desestructuradas y fijación flexible que dura toda la noche.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Fijador Profesional L'Oréal</span>
+                <span class="card-link" onclick="openModal(3)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #4 -->
+          <div class="catalog-card" data-category="color" data-index="4">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80" alt="Corte #4 - Morena Iluminada Caramelo" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #4</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(4)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Tinturas & Balayage</span>
+              <h3 class="card-title">Morena Iluminada Caramelo</h3>
+              <p class="card-summary">Iluminación sutil en puntas y contorno facial para cabellos oscuros sin perder la profundidad natural.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Schwarzkopf Igora Royal</span>
+                <span class="card-link" onclick="openModal(4)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #5 -->
+          <div class="catalog-card" data-category="corte" data-index="5">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=700&q=80" alt="Corte #5 - Capas Largas Butterfly Cut" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #5</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(5)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Cortes de Tendencia</span>
+              <h3 class="card-title">Corte Mariposa (Butterfly)</h3>
+              <p class="card-summary">Capas en cascada con desfilado frontal para potenciar el movimiento natural sin acortar el largo total.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Brushing con Ondas Suaves</span>
+                <span class="card-link" onclick="openModal(5)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #6 -->
+          <div class="catalog-card" data-category="fiesta" data-index="6">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=700&q=80" alt="Corte #6 - Semirecogido Fiesta con Ondas al Agua" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #6</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(6)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Peinados de Fiesta & Novias</span>
+              <h3 class="card-title">Ondas Hollywood Glam</h3>
+              <p class="card-summary">Estilo clásico de alfombra roja con pulido de máxima precisión, textura sedosa y brillo reflectante.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Spray Antihumedad Pro</span>
+                <span class="card-link" onclick="openModal(6)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #7 -->
+          <div class="catalog-card" data-category="color" data-index="7">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=700&q=80" alt="Corte #7 - Rubio Platino Ice & Gloss" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #7</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(7)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Tinturas & Balayage</span>
+              <h3 class="card-title">Rubio Platino Ice & Gloss</h3>
+              <p class="card-summary">Decoloración de alta definición con matiz ceniza puro y tratamiento de nutrición lipídica para fibra sana.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Tratamiento Olaplex No. 1 & 2</span>
+                <span class="card-link" onclick="openModal(7)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #8 -->
+          <div class="catalog-card" data-category="corte" data-index="8">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=700&q=80" alt="Corte #8 - Long Bob Asimétrico" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #8</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(8)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Cortes de Tendencia</span>
+              <h3 class="card-title">Lob Elegance Moderno</h3>
+              <p class="card-summary">Media melena recta con puntas sutilmente desfiladas que enmarcan el rostro con sofisticación minimalista.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Corte en Seco de Precisión</span>
+                <span class="card-link" onclick="openModal(8)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CORTE #9 -->
+          <div class="catalog-card" data-category="fiesta" data-index="9">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?auto=format&fit=crop&w=700&q=80" alt="Corte #9 - Recogido Alto Texturizado" class="card-img" loading="lazy">
+              <span class="card-number-badge">CORTE #9</span>
+              <div class="card-overlay">
+                <button class="btn-inspect" onclick="openModal(9)">Ver Ficha Técnica</button>
+              </div>
+            </div>
+            <div class="card-body">
+              <span class="card-category">Peinados de Fiesta & Novias</span>
+              <h3 class="card-title">Moño Alto Desenfadado (Updo)</h3>
+              <p class="card-summary">Ideal para vestidos de gala con escote en espalda. Mechones frontales estratégicos para estilizar el cuello.</p>
+              <div class="card-footer">
+                <span class="card-tintura-tag">Accesorios Dorados & Tiaras</span>
+                <span class="card-link" onclick="openModal(9)">Detalles &rarr;</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="catalog-instagram-cta">
+          <div class="insta-cta-box">
+            <div class="insta-icon-wrapper">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+            <div class="insta-text">
+              <h4>¿Quieres ver más trabajos y transformaciones en vivo?</h4>
+              <p>Publicamos historias diarias, antes y después de tinturas y peinados para fiestas en nuestro perfil oficial.</p>
+            </div>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+              Seguir en Instagram @estiloycolor
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- 5. LISTA DETALLADA DE SERVICIOS (Requerimiento)-->
+    <!-- ============================================== -->
+    <section class="section services-section" id="servicios">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">CARTA PROFESIONAL</span>
+          <h2 class="section-title">Servicios & Tinturas Especializadas</h2>
+          <div class="gold-divider"></div>
+          <p class="section-lead">Transparencia total en precios, técnicas empleadas y duración estimada de cada tratamiento.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Servicio 1 -->
+          <div class="service-item">
+            <div class="service-top">
+              <h3 class="service-name">Balayage Premium & Babylights</h3>
+              <span class="service-price">Desde $65.000</span>
+            </div>
+            <p class="service-desc">Aclaración degradada a mano alzada con protector de puentes capilares y matiz personalizado según tu tono de piel.</p>
+            <ul class="service-perks">
+              <li>✓ Incluye Tonalizador Wella Color Touch</li>
+              <li>✓ Diagnóstico capilar y mascarilla de sellado</li>
+              <li>✓ Duración estimada: 3 a 4 horas</li>
+            </ul>
+          </div>
+
+          <!-- Servicio 2 -->
+          <div class="service-item">
+            <div class="service-top">
+              <h3 class="service-name">Coloración Global & Retoque de Raíz</h3>
+              <span class="service-price">Desde $38.000</span>
+            </div>
+            <p class="service-desc">Tinturas de máxima cobertura de canas 100% garantizada, sin amoníaco abrasivo, con aceites nutritivos que potencian el brillo.</p>
+            <ul class="service-perks">
+              <li>✓ Fórmulas libres de olor fuerte e irritaciones</li>
+              <li>✓ Brushing y peinado final de regalo</li>
+              <li>✓ Duración estimada: 2 horas</li>
+            </ul>
+          </div>
+
+          <!-- Servicio 3 -->
+          <div class="service-item highlight-service">
+            <div class="service-pill-featured">MÁS SOLICITADO PARA EVENTOS</div>
+            <div class="service-top">
+              <h3 class="service-name">Peinados para Novias & Fiestas</h3>
+              <span class="service-price">Desde $45.000</span>
+            </div>
+            <p class="service-desc">Diseño exclusivo de peinado para matrimonios, galas y graduaciones. Recogidos, semirecogidos o peinados con ondas al agua.</p>
+            <ul class="service-perks">
+              <li>✓ Opción de prueba de peinado previa</li>
+              <li>✓ Colocación de tocado, velo o accesorios</li>
+              <li>✓ Fijación anti-humedad de alta duración</li>
+            </ul>
+          </div>
+
+          <!-- Servicio 4 -->
+          <div class="service-item">
+            <div class="service-top">
+              <h3 class="service-name">Tratamiento de Keratina Brasileña</h3>
+              <span class="service-price">Desde $55.000</span>
+            </div>
+            <p class="service-desc">Eliminación total del frizz y reducción de volumen mediante infusión de keratina vegetal bio-activa sin formol tóxico.</p>
+            <ul class="service-perks">
+              <li>✓ Efecto liso espejo y tacto sedoso hasta 4 meses</li>
+              <li>✓ Hidratación profunda de cutículas</li>
+              <li>✓ Duración estimada: 2.5 horas</li>
+            </ul>
+          </div>
+
+          <!-- Servicio 5 -->
+          <div class="service-item">
+            <div class="service-top">
+              <h3 class="service-name">Corte de Autor & Visagismo</h3>
+              <span class="service-price">Desde $22.000</span>
+            </div>
+            <p class="service-desc">Estudio morfológico de tus facciones para diseñar el corte que más favorece a tu rostro y estilo de vida.</p>
+            <ul class="service-perks">
+              <li>✓ Lavado relajante con masaje capilar</li>
+              <li>✓ Secado y modelado profesional</li>
+              <li>✓ Duración estimada: 50 minutos</li>
+            </ul>
+          </div>
+
+          <!-- Servicio 6 -->
+          <div class="service-item">
+            <div class="service-top">
+              <h3 class="service-name">Barbería Clásica & Corte Masculino</h3>
+              <span class="service-price">Desde $18.000</span>
+            </div>
+            <p class="service-desc">Corte clásico o degradado a navaja, perfilado de barba con toalla caliente y aceites esenciales tonificantes.</p>
+            <ul class="service-perks">
+              <li>✓ Ritual tradicional con toalla caliente</li>
+              <li>✓ Acabado con bálsamo hidratante</li>
+              <li>✓ Duración estimada: 45 minutos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- 6. SECCIÓN CONTACTO & FAQ (Wireframe 2)       -->
+    <!-- Formulario + Almacenamiento + Preguntas + Mapa -->
+    <!-- ============================================== -->
+    <section class="section contact-section" id="contacto">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-badge">ESTAMOS PARA ASESORARTE</span>
+          <h2 class="section-title">Formulario de Contacto & Consultas</h2>
+          <div class="gold-divider"></div>
+          <p class="section-lead">Envíanos tu consulta sobre tipos de tintura, presupuestos para novias o agenda tu visita. Almacenamos tus datos de forma segura para darte una respuesta inmediata.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Formulario de Contacto (Wireframe 2) -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Envíanos un Mensaje Directo</h3>
+            <p class="form-subtitle">Completa el formulario y una de nuestras especialistas te responderá en menos de 2 horas hábiles.</p>
+            
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="fullName">NOMBRE COMPLETO <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Ej: María José Fernández" required>
+                <span class="field-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">CORREO ELECTRÓNICO <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="tucorreo@ejemplo.com" required>
+                <span class="field-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">ASUNTO DE CONSULTA <span class="required">*</span></label>
+                <select id="subject" name="subject" class="form-control" required>
+                  <option value="" disabled selected>Selecciona el motivo de tu consulta</option>
+                  <option value="Tintura y Balayage">Consulta de Tintura y Balayage</option>
+                  <option value="Peinado de Fiesta / Novia">Peinado para Fiesta / Boda / Evento</option>
+                  <option value="Tratamiento de Keratina">Tratamiento de Keratina o Antifrizz</option>
+                  <option value="Corte y Asesoría">Corte de Cabello y Asesoría</option>
+                  <option value="Otra Consulta">Otra Consulta</option>
+                </select>
+                <span class="field-error" id="subjectError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">MENSAJE DETALLADO <span class="required">*</span></label>
+                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Cuéntanos qué tienes en mente, si tienes tinturas previas o la fecha de tu evento..." required></textarea>
+                <span class="field-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn-gold btn-block" id="submitBtn">
+                <span class="btn-text">ENVIAR MENSAJE</span>
+                <span class="btn-spinner d-none"></span>
+              </button>
+
+              <!-- Mensaje de éxito al enviar -->
+              <div class="form-feedback success d-none" id="formSuccessMsg">
+                <span class="feedback-icon">✓</span>
+                <div>
+                  <strong>¡Consulta enviada con éxito!</strong>
+                  <p>Hemos guardado tu requerimiento en nuestra base de datos local. Te responderemos a la brevedad.</p>
+                </div>
+              </div>
+            </form>
+
+            <!-- Historial de consultas enviadas (Base de datos local en LocalStorage) -->
+            <div class="local-storage-box" id="recentConsultsBox">
+              <div class="local-box-header">
+                <span>📁 Base de datos local: <strong id="consultsCount">0</strong> consulta(s) guardada(s)</span>
+                <button type="button" class="btn-text-link" id="toggleConsultsBtn">Ver Consultas</button>
+              </div>
+              <div class="consults-list d-none" id="consultsList">
+                <!-- Se llena dinámicamente con JavaScript -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Ayuda y Preguntas + Datos de Contacto (Wireframe 2) -->
+          <div class="contact-info-col">
+            <!-- Caja Ayuda y Preguntas Frecuentes (Wireframe 2) -->
+            <div class="faq-card">
+              <h3 class="faq-card-title">Ayuda & Preguntas Frecuentes</h3>
+              <p class="faq-card-desc">Resolvemos las dudas más habituales sobre los servicios de Estilo & Color.</p>
+
+              <div class="accordion" id="faqAccordion">
+                <!-- Pregunta 1: Tinturas -->
+                <div class="accordion-item active">
+                  <button class="accordion-header" type="button">
+                    <span>¿Qué tipos de tinturas ocupan en el salón?</span>
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-body">
+                    <p>Ocupamos exclusivamente tinturas de gama profesional internacional: <strong>Wella Professionals, L'Oréal Majirel y Schwarzkopf Igora</strong>. Contamos con líneas 100% libres de amoníaco, hipoalergénicas y enriquecidas con aceites botánicos para garantizar la salud y brillo de tu cabello.</p>
+                  </div>
+                </div>
+
+                <!-- Pregunta 2: Peinados de fiesta y novias -->
+                <div class="accordion-item">
+                  <button class="accordion-header" type="button">
+                    <span>¿Hacen peinados para fiestas, graduaciones o novias?</span>
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-body">
+                    <p>¡Sí, es una de nuestras grandes especialidades! Realizamos recogidos altos, ondas al agua estilo Hollywood, semirecogidos bohemios y peinados con tocados. Para novias ofrecemos servicio de <em>prueba previa</em> para asegurar el look exacto que deseas.</p>
+                  </div>
+                </div>
+
+                <!-- Pregunta 3: Cuánto dura el Balayage -->
+                <div class="accordion-item">
+                  <button class="accordion-header" type="button">
+                    <span>¿Cuánto dura el efecto de un Balayage y con qué frecuencia retoco?</span>
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-body">
+                    <p>Al ser una técnica difuminada desde la raíz natural, el Balayage dura entre 4 a 6 meses sin necesidad de retocar la raíz. Solo recomendamos una sesión de baño de brillo (tonalización) a los 2 meses para mantener el tono vivo.</p>
+                  </div>
+                </div>
+
+                <!-- Pregunta 4: Citas previas -->
+                <div class="accordion-item">
+                  <button class="accordion-header" type="button">
+                    <span>¿Se requiere reservar con anticipación?</span>
+                    <span class="accordion-icon">+</span>
+                  </button>
+                  <div class="accordion-body">
+                    <p>Para servicios de coloración y peinados de fiesta recomendamos agendar con al menos 48 horas de antelación. Para fechas de matrimonios y graduaciones de fin de año, se sugiere reservar con 2 a 3 semanas de anticipación.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Datos de contacto & Locación (Wireframe 2) -->
+            <div class="contact-direct-card">
+              <div class="direct-info-item">
+                <span class="direct-icon">📧</span>
+                <div>
+                  <span class="direct-label">EMAIL OFICIAL</span>
+                  <a href="mailto:estilo&color@gmail.com" class="direct-val">estilo&color@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="direct-info-item">
+                <span class="direct-icon">📞</span>
+                <div>
+                  <span class="direct-label">TELÉFONO & WHATSAPP</span>
+                  <a href="tel:+56987654321" class="direct-val">+56 9 8765 4321</a>
+                </div>
+              </div>
+
+              <div class="direct-info-item">
+                <span class="direct-icon">📍</span>
+                <div>
+                  <span class="direct-label">DIRECCIÓN & UBICACIÓN</span>
+                  <span class="direct-val">Av. Providencia 1450, Local 12, Santiago</span>
+                </div>
+              </div>
+
+              <!-- Locación Map (Wireframe 2) -->
+              <div class="map-container">
+                <div class="map-label">LOCACIÓN MAP</div>
+                <div class="map-placeholder">
+                  <iframe 
+                    title="Mapa de ubicación Peluquería Estilo & Color"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.8306059632867!2d-70.61868512349788!3d-33.427671196322964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf642c235773%3A0xb3e120f5c2ad59e!2sAv.%20Providencia%201450%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1700000000000!5m2!1ses!2scl" 
+                    width="100%" 
+                    height="170" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+              </div>
+
+              <!-- Redes Sociales (Wireframe 2) -->
+              <div class="social-channels">
+                <span class="social-title">REDES SOCIALES OFICIALES:</span>
+                <div class="social-icons-row">
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon instagram" title="Instagram Estilo & Color">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  </a>
+                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon facebook" title="Facebook Estilo & Color">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                  </a>
+                  <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon x-twitter" title="X (Twitter) Estilo & Color">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================== -->
+  <!-- MODAL LIGHTBOX PARA DETALLES DE CORTES (1 AL 9) -->
+  <!-- ============================================== -->
+  <div class="modal-overlay" id="catalogModal" aria-hidden="true" role="dialog">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Cerrar ventana">&times;</button>
+      <div class="modal-content-wrapper">
+        <div class="modal-image-col">
+          <img id="modalImg" src="" alt="Trabajo detallado de Peluquería Estilo y Color" class="modal-img">
+        </div>
+        <div class="modal-details-col">
+          <span class="modal-badge" id="modalBadge">CORTE #1</span>
+          <h3 class="modal-title" id="modalTitle">Título del Trabajo</h3>
+          <p class="modal-category-text" id="modalCategory">Categoría</p>
+          <div class="gold-divider-sm"></div>
+          
+          <div class="modal-info-section">
+            <h4>Técnica Empleada</h4>
+            <p id="modalTechnique">Descripción técnica del trabajo realizado.</p>
+          </div>
+
+          <div class="modal-info-section">
+            <h4>Tintura y Productos Utilizados</h4>
+            <p id="modalProducts">Tintura profesional utilizada en este trabajo.</p>
+          </div>
+
+          <div class="modal-info-section">
+            <h4>Ideal Para</h4>
+            <p id="modalIdealFor">Tipo de cabello o evento recomendado.</p>
+          </div>
+
+          <a href="#contacto" class="btn btn-gold btn-block modal-cta" id="modalCtaBtn">Consultar por este estilo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón Flotante WhatsApp -->
+  <a href="https://wa.me/56987654321?text=Hola%20Estilo%20%26%20Color,%20me%20gustar%C3%ADa%20consultar%20por%20un%20servicio" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" title="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" width="28" height="28" fill="currentColor">
+      <path d="M16 2.5C8.544 2.5 2.5 8.544 2.5 16c0 2.457.656 4.764 1.8 6.757L2.5 29.5l6.981-1.769C11.393 28.793 13.633 29.5 16 29.5c7.456 0 13.5-6.044 13.5-13.5S23.456 2.5 16 2.5zm0 24.57c-2.18 0-4.218-.62-5.95-1.696l-.427-.264-4.407 1.117 1.147-4.293-.289-.442A11.02 11.02 0 0 1 4.93 16c0-6.104 4.966-11.07 11.07-11.07 6.104 0 11.07 4.966 11.07 11.07 0 6.104-4.966 11.07-11.07 11.07zm6.077-8.291c-.333-.167-1.97-.972-2.275-1.083-.306-.111-.528-.167-.75.167-.222.333-.861 1.083-1.056 1.306-.194.222-.389.25-.722.083-.333-.167-1.406-.518-2.678-1.653-.99-.882-1.658-1.972-1.852-2.306-.194-.333-.021-.513.146-.679.15-.15.333-.389.5-.583.167-.194.222-.333.333-.556.111-.222.056-.417-.028-.583-.083-.167-.75-1.806-1.028-2.472-.271-.649-.546-.561-.75-.572-.194-.01-.417-.013-.639-.013-.222 0-.583.083-.889.417-.306.333-1.167 1.139-1.167 2.778s1.194 3.222 1.361 3.444c.167.222 2.35 3.589 5.694 5.033.795.344 1.417.55 1.902.704.8.254 1.528.218 2.104.132.642-.096 1.97-.806 2.248-1.583.278-.778.278-1.444.194-1.583-.083-.139-.306-.222-.639-.389z"/>
+    </svg>
+    <span class="wa-tooltip">¿Consultas sobre tinturas o peinados?</span>
+  </a>
+
+  <!-- Footer Oficial -->
+  <footer class="main-footer">
+    <div class="container footer-container">
+      <div class="footer-col brand-footer">
+        <div class="footer-logo-row">
+          <img src="assets/logo.jpg" alt="Logo Estilo & Color" class="footer-logo">
+          <div class="footer-brand-names">
+            <span class="f-title">ESTILO & COLOR</span>
+            <span class="f-sub">PELUQUERÍA ULTRA HD</span>
+          </div>
+        </div>
+        <p class="footer-text">
+          En Estilo y Color realizamos tu belleza que entrelaza con pasión, técnica y los mejores productos. Especialistas certificados en colorimetría capilar y eventos.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Navegación</h4>
+        <ul class="footer-nav">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#antes-despues">Antes & Después</a></li>
+          <li><a href="#catalogo">Catálogo de Trabajos</a></li>
+          <li><a href="#servicios">Servicios & Tinturas</a></li>
+          <li><a href="#contacto">Contacto & FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Horarios de Atención</h4>
+        <ul class="footer-schedule">
+          <li><span>Lunes a Viernes:</span> <strong>10:00 - 20:00 hrs</strong></li>
+          <li><span>Sábados:</span> <strong>09:30 - 19:30 hrs</strong></li>
+          <li><span>Domingos y Festivos:</span> <strong>Novias y Eventos con reserva previa</strong></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 Estilo & Color Peluquería. Todos los derechos reservados. Estética moderna, blanca y dorada.</p>
+        <div class="footer-bottom-links">
+          <a href="#inicio">Términos de Servicio</a>
+          <span>•</span>
+          <a href="#inicio">Políticas de Privacidad</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lógica JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
